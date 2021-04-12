@@ -129,25 +129,26 @@
           <hr>
           <h3 class="section-heading" id="instalacjadhcp" style="padding-top:40px;padding-bottom:40px;text-align:center;margin-top:8px">Instalacja serwera DHCP</h3>
           <hr>
-          <p>Na początek na serwerze zainstaluję usługę serwera DHCP (((i sprawdzę, czy jest ona aktywna)))</p>
+          <p>Na początek na serwerze zainstaluję usługę serwera DHCP</p>
           <div class="banner">
-            <img src="files/stacja/1-2.png" width="256" height="192" alt=""/>
+            <img src="files/serwer/1-install.png" width="256" height="192" alt=""/>
+          </div>
+          <p>Następnie przydziele kartę sieciową IPv4 dla usługi DHCP, edytując plik <kbd>/etc/default/isc-dhcp-server</kbd></p>
+          <div class="banner">
+            <img src="files/serwer/2-1-sudonano.png" width="256" height="192" alt=""/>
           </div>
           <div class="banner">
-            <img src="files/stacja/1-4.png" width="256" height="192" alt=""/>
+            <img src="files/serwer/2-2-blank.png" width="256" height="192" alt=""/>
+          </div>
+          <div class="banner">
+            <img src="files/serwer/2-3-edited.png" width="256" height="192" alt=""/>
           </div>
           <hr>
+          <p>Teraz przejdę do konfiguracji samej usługi w pliku <kbd>/etc/dhcp/dhcpd.conf</kbd></p>
           <div class="banner">
-            <img src="files/serwer/1-2.png" width="256" height="192" alt=""/>
+            <img src="files/serwer/3-1-sudonano-conf.png" width="256" height="192" alt=""/>
           </div>
-          <div class="banner">
-            <img src="files/serwer/1-3.png" width="256" height="192" alt=""/>
-          </div>
-          <hr>
-          <p>Po tych czynnościach sprawdzę, czy między dwoma systemami działającymi w VirtualBox jest połączenie</p>
-          <div class="banner">
-            <img src="files/stacja/1-1.png" width="256" height="192" alt=""/>
-          </div>
+		<p></p>
           <div class="banner">
             <img src="files/serwer/1-1.png" width="256" height="192" alt=""/>
           </div>
