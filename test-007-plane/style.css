@@ -359,7 +359,7 @@
   left: 50%;
   height: calc(var(--base-size) * 0.25vmin);
   width: calc(var(--base-size) * 0.25vmin);
-  background-image: url("https://assets.codepen.io/605876/avatar.png");
+  background-image: url("https://2tihub.xyz/icons/kremowka300x300.png");
   background-size: cover;
   filter: saturate(0.65);
   transform: translate3d(-50%, -50%, 1px);
