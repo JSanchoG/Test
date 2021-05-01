@@ -56,13 +56,6 @@
   transform-style: preserve-3d;
   transition: background 0.25s;
 }
-body {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: var(--bg);
-  overflow: hidden;
-}
 :root {
   --dark: 0;
   --base-size: 20;
@@ -87,7 +80,9 @@ body {
   --wheel-two: #0d0d0d;
   --wheel-three: #000;
   --wheel-hub: hsl(0, 0%, calc((98 - (var(--dark) * 20)) * 1%));
+/*
   --bg: hsl(210, 80%, calc((90 - (var(--dark) * 76)) * 1%));
+*/
   --night: #082949;
   --cloud-one: hsl(0, 0%, calc((98 - (var(--dark) * 35)) * 1%));
   --cloud-two: hsl(0, 0%, calc((94 - (var(--dark) * 35)) * 1%));
