@@ -1,0 +1,23 @@
+{
+	"app": {
+		"tihub": {
+			"version": {
+				"latest": {
+                    "downloads": {
+                        "amount": "8",
+                        "icon": "bi bi-download"
+                    },
+                    "notes": {
+                        "icon": "bi bi-journals"
+                    },
+                    "linux": {
+                        "icon": "fab fa-ubuntu"
+                    },
+                    "windowsserver": {
+                        "icon": "fab fa-windows"
+                    }
+                }
+			}
+		}
+	}
+}
