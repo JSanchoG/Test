@@ -5,16 +5,20 @@
 				"latest": {
                     "downloads": {
                         "amount": "8",
-                        "icon": "bi bi-download"
+                        "icon": "bi bi-download",
+                        "text": "Ilość Pobrań Aplikacji"
                     },
                     "notes": {
-                        "icon": "bi bi-journals"
+                        "icon": "bi bi-journals",
+                        "text": "Ilość Notatek"
                     },
                     "linux": {
-                        "icon": "fab fa-ubuntu"
+                        "icon": "fab fa-ubuntu",
+                        "text": "Ilość Prac z Linuxa"
                     },
                     "windowsserver": {
-                        "icon": "fab fa-windows"
+                        "icon": "fab fa-windows",
+                        "text": "Ilość Prac z Windows Server"
                     }
                 }
 			}
