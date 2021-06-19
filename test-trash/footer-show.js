@@ -1,2 +1,4 @@
-$( ".tihub-footer" ).show();
-$( ".tihub-to-show" ).show();
+function tihubscjq() {
+  $( ".tihub-footer" ).show();
+  $( ".tihub-to-show" ).show();
+}
