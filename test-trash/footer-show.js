@@ -1,4 +1,4 @@
 function tihubscjq() {
-  $( ".tihub-footer" ).show();
-  $( ".tihub-to-show" ).show();
+  $('.tihub-footer').show();
+  $('.tihub-to-show').show();
 }
