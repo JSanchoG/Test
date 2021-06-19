@@ -1,1 +1,1 @@
-	$( ".tihub-footer" ).show();
+$( ".tihub-footer" ).show();
